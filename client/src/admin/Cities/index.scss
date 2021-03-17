@@ -1,0 +1,29 @@
+.wrapper_cities {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  .card_city {
+    margin: 0 auto 10px auto;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    border: solid 1px rgb(201, 201, 201);
+    .wrapper_buttons {
+      margin: 5px 0;
+    }
+  }
+}
+
+.add_city {
+  left: 50%;
+  transform: translate(-50%);
+  margin: 10px 0 0 0;
+}
+
+.error {
+  color: red;
+}

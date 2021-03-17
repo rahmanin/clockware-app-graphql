@@ -1,0 +1,52 @@
+.chooseMaster_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chooseMasterForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .radio_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card_choose_master {
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    border: solid 1px rgb(201, 201, 201);
+  }
+}
+h1 {
+  margin: 25px;
+  text-align: center;
+}
+.err_message {
+  text-align: center;
+  margin-top: 150px;
+}
+.new_time_wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.new_time_button {
+  margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+  background-color: #fff;
+  font-size: 16px;
+}
